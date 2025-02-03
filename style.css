@@ -449,7 +449,9 @@ button[type="submit"]:hover {
   padding-top: 20px;
   border-top: 1px solid #555;
 }
-
+.footer-bottom c:hover {
+  color: #007bff; /* Or any color you prefer for hover state */
+}
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;
